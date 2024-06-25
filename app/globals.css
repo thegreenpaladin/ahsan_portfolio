@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  /* body {
+    @apply w-full h-screen flex flex-col text-white;
+  } */
+  /* .nav-link {
+    @apply ml-5 px-2 py-1 hover:scale-[110%] focus-within:bg-white focus-within:text-slate-900 focus-within:scale-110 transition ease-out duration-300;
+  } */
+  .social {
+    @apply text-[40px] mb-2 hover:scale-[115%] transition ease-out duration-300;
+  }
+  
+  .icon {
+    @apply text-5xl;
+  }
+
+  .skill-card {
+    @apply bg-slate-800 flex flex-col items-center justify-center w-40 mx-5 mb-5 p-4 rounded-sm shadow shadow-slate-950 hover:scale-[115%] transition ease-out duration-300;
+  }
+}
+
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
